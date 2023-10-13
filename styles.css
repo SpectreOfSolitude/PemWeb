@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    font-family: "Lucida Console", "Courier New", sans-serif;
+    color: white;
+  }
+
+  input[type=text] {
+    background-color: #2b312f;
+    color: white;
+  }
