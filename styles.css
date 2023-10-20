@@ -2,6 +2,8 @@ body {
   background-color: black;
   font-family: "Lucida Console", "Courier New", sans-serif;
   color: white;
+  padding: 0px;
+  margin:0px;
 }
 
 input[type=text] {
@@ -10,7 +12,7 @@ input[type=text] {
 }
 
 a:link {
-  color: red;
+  color: pink;
   background-color: transparent;
   text-decoration: none;
 }
@@ -31,4 +33,40 @@ a:hover {
   color: silver;
   background-color: transparent;
   text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b312f;
+}
+
+#navlist {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background-color: #2b312f;
+}
+
+li{ 
+  display: flex;
+  margin: 10px;
+}
+
+#head {
+  display: flex;
+  background-color: #2b312f;
+  justify-content: center;
+  margin: 0;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+#atas {
+  background-color: #2b312f;
+}
+
+#specpic{
+  display: flex;
 }
