@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: white;
   font-family: "Lucida Console", "Courier New", sans-serif;
   color: white;
   padding: 0px;
@@ -28,11 +28,40 @@ a:hover {
   background-color: transparent;
   text-decoration: none;
 }
+.container{
+  display: grid;
+  
+  width: auto;
+  height:auto;
+  gap: 10px;
+  grid-template-columns: 0.8fr 0.7fr 0.5fr;
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  background-color: black;
+  grid-template-areas: 
+    "pics . login"
+    "realms main ."
+    "realms main power";
+  /* row-gap: 100px; */
+}
+
+.container-items{
+  background-color: black;
+}
+
+#login{
+  grid-area: main;
+  padding: 50px;
+}
+
+#chant{
+  margin-left: 29px ;
+}
 
 #Dimension-ul {
   color: silver;
   background-color: transparent;
   text-decoration: none;
+  grid-area: realms;
 }
 
 nav {
@@ -68,5 +97,21 @@ li {
 }
 
 #specpic {
+  grid-area: pics;
   display: flex;
+  
+}
+
+#login {
+  grid-area: login;
+}
+
+#powered-by{
+  grid-area: power;
+  /* justify-self: end; */
+  padding-left: 50px;
+}
+
+#main{
+  grid-area: main;
 }
