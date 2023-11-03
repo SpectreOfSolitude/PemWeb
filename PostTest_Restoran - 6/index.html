@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuSharCS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <form action="" id="tempatPesan">
+            <div class="orderan">
+                <table>
+                    <tr>
+                        <td>
+                            <label id="input1" for="namaMakanan">Makanan: </label>
+                        </td>
+                        <td>
+                            <select id="namaMakanan">
+                                <option value="9000">Indomi bakar</option>
+                                <option value="100000000">Nasi Akal Sehat </option>
+                                <option value="69">Risol Pake Mayonya Rakesh</option>
+                                <option value="13000">Katsu Jumat Berkah</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label id="input2" for="Jumlah">Jumlah:</label>
+                        </td>
+                        <td>
+                            <input id="Jumlah" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label id="input3" for="Voucher"> Voucher: </label>
+                        </td>
+                        <td>
+                            <input id="Voucher" type="text">
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <button id="tombolPesen" type="button" onclick="Simpan()">Pesan</button>
+        </form>
+        </div>
+
+    <div id="HasilPesanan">
+        <table>
+            <tr>
+                <td>
+                    Nama Pesanan
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <span id="NamaPesanan"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jumlah Pesanan
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <span id="JumlahPesanan"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Total Diskon
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <span id="TotalDiskon"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Total Harga
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <span id="TotalHarga"></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="wm">
+        All rights reserved by the SpectreOfSolitude
+    </div>
+</body>
+
+</html>

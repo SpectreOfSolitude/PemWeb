@@ -1,0 +1,56 @@
+#tempatPesan{
+    display: grid;
+    grid-template-columns: 0.5fr 0.3fr 0.5fr;
+    grid-template-rows: 0.4fr 0.4fr;
+    grid-template-areas: 
+      "orderan1 . tombolPesen"
+      "orderan2 . tombolPesen";
+    /* row-gap: 100px; */
+    border:solid 1px;
+    border-color: black;
+    border-radius: 10px;
+    background-color:blanchedalmond;
+}
+.orderan{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.orderan1{
+    display: flex;
+    grid-area: orderan1;
+}
+.orderan2{
+    display: flex;
+    grid-area: orderan2;
+}
+.orderan3{
+    display: flex;
+    grid-area: orderan3;
+}
+#tombolPesen{
+    margin-top: 10px;
+    grid-area: tombolPesen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input1{
+    padding-right: 5px;
+}
+#input2{
+    padding-right: 18px;
+}
+#input3{
+    padding-right: 12px;
+}
+#HasilPesanan{
+    margin-top: 30px;
+    border:solid 1px;
+    border-color: black;
+    border-radius: 10px;
+    background-color:blanchedalmond;
+}
+#wm{
+    margin-top: 250px;
+}
