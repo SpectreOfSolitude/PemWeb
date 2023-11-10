@@ -1,0 +1,46 @@
+.board{
+    display: grid;
+    padding: 15px;
+    justify-content: center;
+    gap: 5px;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "1 2 3"
+        "4 5 6"
+        "7 8 9";
+}
+.darkMode{
+    background-color: black;
+    color: white;
+}
+.darkBox{
+    background-color: darkslategrey;
+}
+.lightBox{
+    background-color:antiquewhite;
+}
+.cell{
+    border: 1px solid black;
+    padding: 30px;
+    
+    text-align: center;
+    height: 30px;
+    
+}
+#reset{
+    justify-self: center;
+}
+button{
+    padding: 5px;
+    background-color:gainsboro;
+    border: 1px solid grey;
+}
+
+.hidden{
+opacity: 0;
+}
+#wm{
+    text-align: end;
+    margin-top: 180px;
+}
