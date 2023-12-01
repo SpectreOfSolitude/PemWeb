@@ -1,0 +1,102 @@
+#head {
+  text-align: center;
+  font-size: 50px;
+}
+
+body {
+  background-color: black;
+  font-family: "HexagonAkkurat", "HexagonAkkurat", sans-serif;
+  color: white;
+  background-color: black;
+  background-image: url(../Elements/background4.JPG);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position-x: 910px ;
+  background-position-y: 430px;
+  padding: 0%;
+  margin: 0%;
+}
+
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: crimson;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.login-wrapper {
+  /* background-color: blueviolet; */
+  margin-left: 33%;
+  padding: 1%;
+  justify-content: center;
+  position: absolute;
+  border: 3px solid grey;
+  border-radius: 20px;
+}
+
+#tagline {
+text-align: center;
+}
+
+.input-box {
+  width: 400px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  margin-top: 25px;
+  padding-left: 18px;
+  color: white;
+  font-size: 16px;
+}
+
+.input-box::placeholder {
+  color: gray;
+  font-size: 16px;
+}
+
+#loginButton{
+  margin-top: 30px;
+  padding: 10px;
+  width: 300px;
+  border: none;
+  margin-left: 65px;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: large;
+}
+
+#loginButton:hover{
+  background-color:grey ;
+}
+
+.remember-forgot{
+  padding-top:5%;
+  padding-left: 5%;
+}
+.remember-checkbox{
+  padding-right: 100px;
+}
+.register-link{
+  display:flex;
+  padding-top: 5%;
+  justify-content: center;
+}
+
+#register-here{
+  padding-left: 4px;
+}
